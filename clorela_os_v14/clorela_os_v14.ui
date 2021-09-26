@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>clorela_os_v14</class>
+ <widget class="QMainWindow" name="clorela_os_v14">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>clorela_os_v14</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuCUENTA">
+    <property name="title">
+     <string>CUENTA</string>
+    </property>
+    <widget class="QMenu" name="menuMI_PERFIL">
+     <property name="title">
+      <string>MI PERFIL</string>
+     </property>
+     <addaction name="actionDATOS_DE_USUARIO"/>
+     <addaction name="actionADDRESS_WALLETT"/>
+    </widget>
+    <addaction name="actionINICIAR_SESION"/>
+    <addaction name="menuMI_PERFIL"/>
+    <addaction name="actionINICIAR_CARGA"/>
+    <addaction name="actionDETENER_CARGA"/>
+    <addaction name="actionCERRAR_SESION"/>
+   </widget>
+   <widget class="QMenu" name="menuVISTA">
+    <property name="title">
+     <string>VISTA</string>
+    </property>
+    <widget class="QMenu" name="menuUI">
+     <property name="title">
+      <string>UI</string>
+     </property>
+     <addaction name="actionGRAFICA"/>
+     <addaction name="actionNUMERICA"/>
+    </widget>
+    <widget class="QMenu" name="menuIDIOMA">
+     <property name="title">
+      <string>IDIOMA</string>
+     </property>
+     <addaction name="actionINGLES"/>
+     <addaction name="actionESPA_OL"/>
+     <addaction name="actionFRANCES"/>
+    </widget>
+    <addaction name="menuUI"/>
+    <addaction name="menuIDIOMA"/>
+   </widget>
+   <widget class="QMenu" name="menuCONFIGURAR">
+    <property name="title">
+     <string>CONFIGURAR</string>
+    </property>
+    <addaction name="actionCONFIGURAR_SERVER"/>
+    <addaction name="actionCONFIGURAR_SERVER_2"/>
+   </widget>
+   <widget class="QMenu" name="menuOPCIONES">
+    <property name="title">
+     <string>OPCIONES</string>
+    </property>
+    <addaction name="actionBUSCAR_ACTUALIZACIONES"/>
+    <addaction name="actionPROPIEDADES_DE_CONEXION"/>
+   </widget>
+   <widget class="QMenu" name="menuAYUDA">
+    <property name="title">
+     <string>AYUDA</string>
+    </property>
+    <addaction name="actionACERCA_DE_CLORELA"/>
+    <addaction name="actionACERCA_DE_WALCORG"/>
+    <addaction name="actionREPORTAR_UN_PROBLEMA"/>
+   </widget>
+   <addaction name="menuCUENTA"/>
+   <addaction name="menuVISTA"/>
+   <addaction name="menuCONFIGURAR"/>
+   <addaction name="menuOPCIONES"/>
+   <addaction name="menuAYUDA"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionINICIAR_SESION">
+   <property name="text">
+    <string>INICIAR SESION</string>
+   </property>
+  </action>
+  <action name="actionINICIAR_CARGA">
+   <property name="text">
+    <string>INICIAR CARGA (F1)</string>
+   </property>
+  </action>
+  <action name="actionDETENER_CARGA">
+   <property name="text">
+    <string>DETENER CARGA (F5)</string>
+   </property>
+  </action>
+  <action name="actionCERRAR_SESION">
+   <property name="text">
+    <string>CERRAR SESION</string>
+   </property>
+  </action>
+  <action name="actionGRAFICA">
+   <property name="text">
+    <string>GRAFICA</string>
+   </property>
+  </action>
+  <action name="actionNUMERICA">
+   <property name="text">
+    <string>NUMERICA</string>
+   </property>
+  </action>
+  <action name="actionCONFIGURAR_SERVER">
+   <property name="text">
+    <string>CONFIGURAR WIFI</string>
+   </property>
+  </action>
+  <action name="actionCONFIGURAR_SERVER_2">
+   <property name="text">
+    <string>CONFIGURAR SERVER</string>
+   </property>
+  </action>
+  <action name="actionBUSCAR_ACTUALIZACIONES">
+   <property name="text">
+    <string>BUSCAR ACTUALIZACIONES</string>
+   </property>
+  </action>
+  <action name="actionPROPIEDADES_DE_CONEXION">
+   <property name="text">
+    <string>PROPIEDADES DE CONEXION</string>
+   </property>
+  </action>
+  <action name="actionACERCA_DE_CLORELA">
+   <property name="text">
+    <string>ACERCA DE CLORELA</string>
+   </property>
+  </action>
+  <action name="actionACERCA_DE_WALCORG">
+   <property name="text">
+    <string>ACERCA DE WALCORG</string>
+   </property>
+  </action>
+  <action name="actionREPORTAR_UN_PROBLEMA">
+   <property name="text">
+    <string>REPORTAR UN PROBLEMA</string>
+   </property>
+  </action>
+  <action name="actionDATOS_DE_USUARIO">
+   <property name="text">
+    <string>DATOS DE USUARIO</string>
+   </property>
+  </action>
+  <action name="actionADDRESS_WALLETT">
+   <property name="text">
+    <string>ADDRESS WALLETT</string>
+   </property>
+  </action>
+  <action name="actionINGLES">
+   <property name="text">
+    <string>INGLES</string>
+   </property>
+  </action>
+  <action name="actionESPA_OL">
+   <property name="text">
+    <string>ESPAÑOL</string>
+   </property>
+  </action>
+  <action name="actionFRANCES">
+   <property name="text">
+    <string>FRANCES</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
